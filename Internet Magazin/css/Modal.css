@@ -1,0 +1,89 @@
+/*--- Modal ---*/
+/*--- Catalog Modal ---*/
+.catalog_modal{
+    display: none;
+    position: fixed;
+    z-index: 900;
+    top: 20%;
+    width: 25%;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+}
+.catalog_modal .catalog_modal_container{
+    background: #fff;
+}
+.catalog_modal .catalog_modal_container ul{
+    padding: 10px 10px;
+}
+.catalog_modal .catalog_modal_container ul li{
+    list-style-type: none;
+    padding: 7px;
+    width: 100%;
+    border-radius: 12px;
+    transition: .5s all;
+}
+.catalog_modal .catalog_modal_container ul li:hover{
+    background: #E2ECFF;
+}
+.catalog_modal .catalog_modal_container ul li a{
+    text-decoration: none;
+    color: #666666;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    transition: .5s all;
+}
+.catalog_modal .catalog_modal_container ul li a:hover{
+    color: #0A1D43;
+}
+.catalog_modal .catalog_modal_container ul li a i{
+    padding: 0 10px;
+}
+.active{
+    display: block;
+}
+/*--- Input Modal ---*/
+.input_btn_modals{
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 30%;
+    z-index: 999;
+    background: #fff;
+    width: 50%;
+    overflow-x: auto;
+    height: 80vh;
+}
+.input_btn_modals::-webkit-scrollbar{
+    display: none;
+}
+.input_btn_modals:hover{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+.input_btn_modal_container{
+    padding: 20px 5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.input_btn_modal{
+    width: 50%;
+    padding: 0 20px;
+    font-family: Inter;
+    font-style: normal;
+}
+.input_btn_modal h2{
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.input_btn_modal ul li{
+    list-style-type: none;
+    padding: 5px;
+}
+.input_btn_modal ul li a{
+    text-decoration: none;
+    color: #626E84;
+}
+/*--- Modal ---*/
